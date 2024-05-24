@@ -1,0 +1,25 @@
+{
+  "name": "hono-user-management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "start": "npm run lint && tsc && node dist/server.js",
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hono/node-server": "^1.11.1",
+    "hono": "^4.3.10",
+    "install": "^0.13.0",
+    "npm": "^10.8.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "eslint": "^9.3.0"
+  }
+}
