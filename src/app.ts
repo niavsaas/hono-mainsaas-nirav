@@ -4,7 +4,7 @@ import { authMiddleware } from './middlewares/authMiddleware';
 
 const app = new Hono();
 
-// Apply authentication middleware to user routes
+// Apply 
 app.use('/users/*', authMiddleware);
 
 // Routes setup
